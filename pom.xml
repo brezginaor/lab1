@@ -25,31 +25,5 @@
       <version>3.6</version>
     </dependency>
   </dependencies>
-  <build>
-    <plugins>
-        <plugin>
-            <groupId>org.codehaus.mojo</groupId>
-            <artifactId>exec-maven-plugin</artifactId>
-            <version>3.0.0</version>
-            <executions>
-                <execution>
-                    <id>execution1</id>
-                    <goals>
-                        <goal>java</goal>
-                    </goals>
-                </execution>
-            </executions>
-            <configuration>
-                <mainClass>ru.spbstu.telematics.java.ReflectionExample</mainClass>
-                <arguments>
-                    <argument>SampleClass</argument>
-                    <argument>sampleMethod</argument>
-                    <argument>arg1</argument>
-                    <argument>arg2</argument>
-                </arguments>
-            </configuration>
-        </plugin>
-    </plugins>
-  </build>
 </project>
 
